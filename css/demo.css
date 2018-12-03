@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+}
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: '';
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	font-family: Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, 'Raleway', Arial, sans-serif;
+	color: #4b0f31;
+	background-color: #f1e5e6;
+	font-weight: 500;
+	font-size: 1em;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.codrops-header {
+	padding: 2em 1em 4em;
+	text-align: center;
+}
+
+.codrops-header h1 {
+	margin: 0.5em 0 0;
+	letter-spacing: -1px;
+	font-size: 3em;
+	line-height: 1;
+}
+
+.codrops-header h1 span {
+	display: block;
+	padding: 0.5em 0 1em;
+	color: #999;
+	font-weight: normal;
+	font-size: 0.45em;
+}
+
+
+
+.content {
+	width: 100%;
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0 3em 0;
+}
+
+.box {
+	background-color: #dfc8ca;
+	padding: 6.25rem 1.25rem;
+}
+
+.box + .box {
+	margin-top: 2.5rem;
+}
+
+.component {
+	position: relative;
+	background: url(../img/gridme.png) repeat center center;
+	padding: 4em;
+	height: 500px;
+	border: 3px solid #49708A;
+	max-width: 901px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+
+.a-tip {
+	color: #49708A;
+}
+
+.a-tip {
+	padding: 1em;
+}
+
+.a-tip span {
+	border: 2px solid #fff;
+	color: #fff;
+	display: inline-block;
+	padding: 0 5px;
+}
+@media screen and (max-width: 27em) {
+	.codrops-icon {
+		font-size: 1.5em;
+	}
+	.codrops-icon span {
+		display: none;
+	}
+}
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		padding: 3em 10% 4em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+		font-size: 2.8em;
+	}
+}
